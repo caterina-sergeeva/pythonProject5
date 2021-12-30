@@ -1,4 +1,5 @@
 def input1():
-    pass
+    return int(input()), int(input())
+
 if __name__ == '__main__':
     pass
