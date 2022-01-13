@@ -5,5 +5,6 @@ def input1():
 def difference_(a, b):
     return a - b
 
+
 if __name__ == '__main__':
     pass
