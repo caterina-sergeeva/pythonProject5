@@ -1,10 +1,10 @@
 def input1():
     return int(input()), int(input())
 
-def cube(t, e):
+def cube(w, e):
     q = []
-    for i in range(t):
-        q.append([e] * t)
+    for i in range(w):
+        q.append([e] * w)
     return q
 
 if __name__ == '__main__':
