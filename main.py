@@ -2,6 +2,13 @@ def input1():
     return int(input()), int(input())
 
 
+def cube(w, e):
+    q = []
+    for i in range(w):
+        q.append([e] * w)
+    return q
+
+
 def sum_(a, b):
     return a + b
 
@@ -15,6 +22,7 @@ def factorial(number: int) -> int:
 
 def average(a, b):
     return (a + b) / 2
+
 
 
 
