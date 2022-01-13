@@ -2,6 +2,10 @@ def input1():
     return int(input()), int(input())
 
 
+
+def difference_(a, b):
+    return a - b
+
 def cube(w, e):
     q = []
     for i in range(w):
@@ -22,6 +26,7 @@ def factorial(number: int) -> int:
 
 def average(a, b):
     return (a + b) / 2
+
 
 
 
